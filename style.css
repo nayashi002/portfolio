@@ -1,0 +1,179 @@
+body{
+   margin: 0;
+   box-sizing: border-box;
+}
+.first-part{
+    background-image: url('abstract-gradient-neon-lights.jpg');
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: -4rem;
+    justify-content: center;
+    height: 100vh;
+    
+    
+   
+}
+h1{
+   color:#C0C0C0;
+   right: 5rem;
+   top: 5rem;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serifs;
+   font-weight: bold;
+   font-size: 32px;
+}
+.coder-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 10rem ;
+    margin-top:8rem;
+    float: right;
+    
+    
+}
+p{
+    color:#C0C0C0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.second-part{
+    background-color: rgb(26, 22, 22);
+    margin: 0;
+
+}
+.skill{
+    margin: 0;
+  
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+.ionicon{
+    height: 100px;
+    fill: aqua;
+}
+.project{
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+img{
+   border-radius: 9rem;
+   
+}
+.fourth-part{
+    background-image: url('abstract-gradient-neon-lights.jpg');
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.project{
+    color: black;
+}
+.tindog{
+    color: black;
+    font-size: 20px;
+}
+.fifth-part{
+    background-color: rgb(26, 22, 22);
+    margin: 0;
+
+}
+.contact{
+  margin: 0;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+/* Small devices and down */
+@media only screen and (max-width: 767px) {
+    /* Your CSS styles for small devices and down go here */
+    .coder-image{
+        height: 200px;
+        width: 200px;
+        border-radius: 10rem ;
+        margin-top:13rem;
+        float: right;
+
+  }
+  h1{
+    color:#C0C0C0;
+    right: 5rem;
+    top: 5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serifs;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .ionicon{
+    height: 60px;
+    fill: aqua;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+}
+  
+/* Extra small devices and down */
+@media only screen and (max-width: 575px) {
+    body{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: -1rem;
+    justify-content: center;
+    height: 30vh;
+    margin-left: rem;
+    
+    
+   
+}
+.ionicon{
+    height: 40px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+  .inside{
+    display: flex;
+    align-items: center;
+    place-content: center;
+  }  
+  }
+  
+
